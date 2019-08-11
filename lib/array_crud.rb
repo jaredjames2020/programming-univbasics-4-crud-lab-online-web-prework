@@ -1,14 +1,17 @@
 def create_an_empty_array
-  
+    [ ]
 end
 
 def create_an_array
-  
+    ["goat", "cow", "chicken", "pig" ]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+   array = [ ]
+   element = array.push
 end
+add_element_to_end_of_array(["john", "steve"], element = array << "william")
+
 
 def add_element_to_start_of_array(array, element)
   
