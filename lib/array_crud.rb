@@ -30,7 +30,7 @@ end
 remove_element_from_start_of_array(["wow", "I", "am", "really", "learning", "arrays!"])
 
 def retrieve_element_from_index(array, index_number)
-  index_number = puts [2]
+  array[index_number]
 end
 retrieve_element_from_index(["wow", "I", "am", "really", "learning", "arrays!"], 2)
 
